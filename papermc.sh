@@ -44,4 +44,4 @@ then
 fi
 
 # Start server
-exec java -server ${JAVA_OPTS} -jar ${JAR_NAME} nogui
+exec /usr/local/openjdk-17/bin/java -server ${JAVA_OPTS} -jar ${JAR_NAME} nogui
